@@ -1,0 +1,22 @@
+galerie.css vfrdgn
+#entete
+img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+img {
+    border-radius: 50%;
+    width: 220px;
+    height: 180px;
+  }
+  
+  /* Styles pour la galerie */
+  .corps {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 20px;
+  }

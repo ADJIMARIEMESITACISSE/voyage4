@@ -1,0 +1,17 @@
+.corps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.corps img {
+    width: 200px;
+    margin: 10px;
+}
+
+#entete {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

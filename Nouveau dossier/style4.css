@@ -1,0 +1,82 @@
+@font-face{
+    font-family: "georgia";
+    src:url("fonts/georgia.ttf");
+}
+
+
+body  {
+	margin: 10px 1%;
+	background-image: url("rose.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+
+header {
+	padding : 30px 80px;
+	font-size : 80px;
+	margin-bottom : 80px;
+	background-image: url("3.jpeg");
+	background-repeat: no-repeat;
+}
+
+
+footer {
+	padding : 20px 0px 30px 0px;
+	text-align : center;
+	font-size : 24px;
+	font-style : italic;
+	background-image: url("4.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+h1 {
+	color			: rgb(5, 6, 5);	
+
+	font-weight		: bold;
+	font-size		: 24px;
+	margin : 0px 5px;
+	padding : 5px;
+	background-image: url("4.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	padding: 0 0 0 50px;
+	
+	
+}
+
+
+article {	
+	font-size		: 15px;
+	margin: 30px;
+	padding : 10px 10px;
+	text-shadow: 0px 0px 4px rgba(219, 79, 18, 0.8)
+
+}
+
+section {
+	margin : 5px auto;
+	padding : 0px;
+	width : 95%;
+	background-image: url("4.jpg");
+	background-repeat: repeat-x;
+	box-shadow: 0px 0px 20px 5px rgb(116, 116, 240);
+	border-radius: 10px;
+ }
+
+p {
+   text-align:justify;	
+}
+
+a {
+	color : rgba(250, 13, 235, 0.995);
+}
+
+section, article, header, h1 {    
+	border : dotted thin rgb(22, 28, 196);
+}
